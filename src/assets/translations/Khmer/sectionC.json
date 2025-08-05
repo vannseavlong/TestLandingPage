@@ -1,0 +1,21 @@
+{
+  "id": "sectionC",
+  "header": {
+    "id": "download_header",
+    "title": "ទាញយកកម្មវិធី bEasy ឥឡូវនេះ!",
+    "description": "bEasy គឺជាកម្មវិធីតែមួយគត់ ដែលជួយដោះស្រាយបញ្ហាសម្អាតផ្ទះ និងការិយាល័យធ្វើការក្នុងរយៈពេល ៣០វិនាទី។ សុវត្ថិភាព អាចទុកចិត្តបាន ដោយគ្មានការព្រួយបារម្ភអ្វីទាំងអស់។ ទាញយកកម្មវិធី bEasy ឥឡូវនេះ ដើម្បីឲ្យជីវិតរស់រវើក។"
+  },
+  "downloadButtons": {
+    "id": "download_buttons",
+    "appStore": {
+      "id": "app_store_button",
+      "subtitle": "ទាញយកនៅលើ",
+      "title": "App Store"
+    },
+    "googlePlay": {
+      "id": "google_play_button",
+      "subtitle": "ទាញយកនៅលើ",
+      "title": "Google Play"
+    }
+  }
+}

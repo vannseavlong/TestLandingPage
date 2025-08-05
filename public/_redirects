@@ -1,0 +1,4 @@
+# Netlify redirects configuration
+# Place this file in your public folder
+
+/*    /index.html   200

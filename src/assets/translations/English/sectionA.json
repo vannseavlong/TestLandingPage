@@ -1,0 +1,28 @@
+{
+  "promotions": [
+    {
+      "id": "promotion_1",
+      "title": "Luxury now becomes affordable",
+      "description": "Experience premium-quality service without the premium price tag. Our services bring the professionalism and excellence of luxury into your everyday life at rates that fit your budget.",
+      "image": "/Luxury_en.png",
+      "buttonText": "Start Booking",
+      "DownloadText": "Download App Now"
+    },
+    {
+      "id": "promotion_2",
+      "title": "Top up $50 and get $100, booking services in 30 seconds",
+      "description": "Double your value instantly! Top up with just $50 and receive $100 in bEasy points. With our seamless 30-second booking process, getting top-tier service has never been quicker or easier.",
+      "image": "/top50get100_en.png",
+      "buttonText": "Start Booking"
+    },
+    {
+      "id": "promotion_3",
+      "title": "Professional Cleaners, Standard Cleaning, Trusted and Reliable",
+      "description": "Leave the cleaning to the professionals. Our trained, dependable, and skilled cleaners deliver consistent results using standard cleaning protocols that ensure your space is spotless, safe, and welcoming, every time.",
+      "image": "/Luxury_en.png",
+      "buttonText": "Start Booking"
+    }
+  ]
+  
+}
+

@@ -1,0 +1,146 @@
+/* Navbar Styles */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: #f8fafc;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #e2e8f0;
+  width: 100%;
+  box-sizing: border-box;
+  height: 70px;
+}
+
+.nav-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1e293b;
+}
+
+.logo-image {
+  height: 50px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding-right: 0;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+nav li {
+  color: #64748b;
+  font-weight: 500;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: color 0.2s ease;
+  white-space: nowrap;
+}
+
+nav li:hover {
+  color: #1e293b;
+}
+
+nav li:last-child {
+  margin-left: 0.5rem;
+}
+
+/* Navbar Responsive Design */
+@media (max-width: 1024px) {
+  .nav-container {
+    padding: 0 32px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 840px) {
+  .nav-container {
+    padding: 0 24px;
+    margin: 0 auto;
+  }
+  nav {
+    height: 55px;
+  }
+  .logo-image {
+    height: 36px;
+  }
+  nav ul {
+    gap: 0.5rem;
+  }
+  nav li {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-container {
+    padding: 0 16px;
+    margin: 0 auto;
+  }
+  nav {
+    height: 60px;
+  }
+  .logo-image {
+    height: 40px;
+  }
+  nav ul {
+    gap: 0.5rem;
+  }
+  nav li {
+    font-size: 0.875rem;
+  }
+  nav li:last-child {
+    margin-left: 0.25rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .nav-container {
+    padding: 0 1.25rem;
+  }
+  nav {
+    height: 55px;
+  }
+  .logo-image {
+    height: 38px;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-container {
+    padding: 0 8px;
+    margin: 0 auto;
+  }
+  nav {
+    height: 50px;
+  }
+  .logo-image {
+    height: 32px;
+  }
+  nav ul {
+    gap: 0.25rem;
+  }
+  nav li {
+    font-size: 0.75rem;
+  }
+}

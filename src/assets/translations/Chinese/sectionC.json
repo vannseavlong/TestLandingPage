@@ -1,0 +1,21 @@
+{
+  "id": "sectionC",
+  "header": {
+    "id": "download_header",
+    "title": "立即下载 bEasy 应用！",
+    "description": "30秒解决您的清洁与防虫问题，一站式提升生活品质。可靠 · 安全 · 值得信赖 马上下载，开启更轻松的生活！"
+  },
+  "downloadButtons": {
+    "id": "download_buttons",
+    "appStore": {
+      "id": "app_store_button",
+      "subtitle": "下载于",
+      "title": "App Store"
+    },
+    "googlePlay": {
+      "id": "google_play_button",
+      "subtitle": "下载于",
+      "title": "Google Play"
+    }
+  }
+}

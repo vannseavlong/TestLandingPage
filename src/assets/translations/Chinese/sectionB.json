@@ -1,0 +1,55 @@
+{
+  "id": "sectionB",
+  "header": {
+    "id": "services_header",
+    "subtitle": "我们的服务",
+    "title": "服务项目"
+  },
+  "services": [
+    {
+      "id": "service_general_cleaning",
+      "title": "清洁服务",
+      "description": "回到一个干净整洁的家。bEasy 提供可靠、专业的清洁服务，让您省心省力，享受真正重要的生活时光。",
+      "buttonText": "开始预订",
+      "buttonUrl": "https://api.beasy.info",
+      "image": "/General_clean_zh.png",
+      "alt": "清洁服务"
+    },
+    {
+      "id": "service_deep_cleaning",
+      "title": "全面清洁服务",
+      "description": "准备好全面焕新了吗？我们的深度清洁服务可深入清除顽固污垢和难以触及的角落，让您的空间恢复最佳状态。",
+      "buttonText": "开始预订",
+      "buttonUrl": "https://api.beasy.info",
+      "image": "/Deep_clean_zh.png",
+      "alt": "全面清洁服务"
+    },
+    {
+      "id": "service_upholstery",
+      "title": "家具清洁（沙发、地毯、床垫）",
+      "description": "让您的家具焕然一新！bEasy 的专业团队温和清除污渍、灰尘和过敏源，为您打造更清洁、更健康的居住环境。",
+      "buttonText": "开始预订",
+      "buttonUrl": "https://api.beasy.info",
+      "image": "/Sofa_Carpet_zh.png",
+      "alt": "家具清洁"
+    },
+    {
+      "id": "service_office_cleaning",
+      "title": "办公室清洁",
+      "description": "干净的办公室助力高效工作。bEasy 的办公室清洁服务为您打造整洁舒适的工作空间，助力团队专注与创新。",
+      "buttonText": "开始预订",
+      "buttonUrl": "https://api.beasy.info",
+      "image": "/Office_clean_zh.png",
+      "alt": "办公室清洁"
+    },
+    {
+      "id": "service_pest_control",
+      "title": "害虫防治",
+      "description": "保护家人远离登革热等疾病侵害。我们安全高效的蚊虫喷雾和烟雾驱虫服务，让您的家居环境更安心。",
+      "buttonText": "开始预订",
+      "buttonUrl": "https://api.beasy.info",
+      "image": "/Pest_control_zh.png",
+      "alt": "害虫防治"
+    }
+  ]
+}

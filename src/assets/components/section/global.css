@@ -1,0 +1,137 @@
+/* Global Styles */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 70px; /* Offset for fixed navbar */
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+body {
+  padding-top: 0;
+  font-family: 'Inter', 'Noto Sans SC', 'Noto Sans Khmer', sans-serif;
+}
+
+/* Container for consistent margins */
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 64px;
+}
+
+/* Animations */
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-left-to-right {
+  opacity: 0;
+  transform: translateX(-50px) translateZ(0);
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1); /* Reduced from 0.8s */
+  will-change: transform, opacity;
+  backface-visibility: hidden;
+}
+
+.animate-right-to-left {
+  opacity: 0;
+  transform: translateX(50px) translateZ(0);
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1); /* Reduced from 0.8s */
+  will-change: transform, opacity;
+  backface-visibility: hidden;
+}
+
+.animate-up {
+  opacity: 0;
+  transform: translateY(50px) translateZ(0);
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1); /* Reduced from 0.8s */
+  will-change: transform, opacity;
+  backface-visibility: hidden;
+}
+
+.animate-on-scroll.animate-in-view.animate-left-to-right {
+  opacity: 1;
+  transform: translateX(0) translateZ(0);
+}
+
+.animate-on-scroll.animate-in-view.animate-right-to-left {
+  opacity: 1;
+  transform: translateX(0) translateZ(0);
+}
+
+.animate-on-scroll.animate-in-view.animate-up {
+  opacity: 1;
+  transform: translateY(0) translateZ(0);
+}
+
+/* Responsive Design Breakpoints */
+/* Large tablets and small laptops */
+@media (max-width: 1024px) {
+  .container {
+    padding: 0 1.5rem;
+  }
+}
+
+/* Medium tablets */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 1.5rem;
+  }
+}
+
+/* Small tablets and large phones */
+@media (max-width: 640px) {
+  .container {
+    padding: 0 1.25rem;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 480px) {
+  .container {
+    padding: 0 1rem;
+  }
+}
+
+/* Very small phones */
+@media (max-width: 375px) {
+  .container {
+    padding: 0 0.75rem;
+  }
+}

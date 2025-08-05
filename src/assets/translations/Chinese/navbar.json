@@ -1,0 +1,17 @@
+{
+  "id": "navbar",
+  "logo": {
+    "id": "navbar_logo",
+    "alt": "bEasy Logo"
+  },
+  "navigation": {
+    "home": "首页",
+    "services": "服务", 
+    "about": "关于我们",
+    "contact": "联系我们"
+  },
+  "downloadButton": {
+    "id": "navbar_download_button",
+    "text": "下载应用"
+  }
+}

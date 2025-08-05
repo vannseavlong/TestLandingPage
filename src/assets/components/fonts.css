@@ -1,0 +1,104 @@
+/* Global fonts for multi-language support */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;600;700&family=Noto+Sans+Khmer:wght@300;400;500;600;700&display=swap');
+
+
+/* Force Khmer font for all elements when Khmer is active (body.khmer-font) */
+body.khmer-font, body.khmer-font * {
+  font-family: 'Noto Sans Khmer', 'Hanuman', Arial, sans-serif !important;
+}
+
+/* Base font settings */
+* {
+  font-family: 'Inter', 'Noto Sans SC', 'Noto Sans Khmer', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* Language-specific font optimizations */
+:lang(en) {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+:lang(zh) {
+  font-family: 'Noto Sans SC', 'Inter', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.025em;
+}
+
+:lang(km) {
+  font-family: 'Noto Sans Khmer', sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0.015em;
+}
+
+/* Ensure proper font rendering across devices */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* Responsive font sizes for better mobile experience */
+@media (max-width: 768px) {
+  :lang(km) {
+    font-size: 0.95em;
+    line-height: 1.65;
+  }
+  
+  :lang(zh) {
+    font-size: 0.95em;
+    line-height: 1.55;
+  }
+}
+
+/* Button text optimization for different languages */
+button:lang(km) {
+  font-family: 'Noto Sans Khmer', sans-serif;
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+button:lang(zh) {
+  font-family: 'Noto Sans SC', sans-serif;
+  font-weight: 500;
+}
+
+button:lang(en) {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
+
+/* Heading optimizations */
+h1:lang(km), h2:lang(km), h3:lang(km) {
+  font-family: 'Noto Sans Khmer', sans-serif;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+h1:lang(zh), h2:lang(zh), h3:lang(zh) {
+  font-family: 'Noto Sans SC', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+h1:lang(en), h2:lang(en), h3:lang(en) {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+}
+
+/* Paragraph text optimization */
+p:lang(km) {
+  font-family: 'Noto Sans Khmer', sans-serif;
+  line-height: 1.7;
+  font-weight: 400;
+}
+
+p:lang(zh) {
+  font-family: 'Noto Sans SC', sans-serif;
+  line-height: 1.6;
+  letter-spacing: 0.02em;
+}
+
+p:lang(en) {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+}

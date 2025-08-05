@@ -1,0 +1,17 @@
+{
+  "id": "navbar",
+  "logo": {
+    "id": "navbar_logo",
+    "alt": "bEasy Logo"
+  },
+  "navigation": {
+    "home": "ទំព័រដើម",
+    "services": "សេវាកម្ម", 
+    "about": "អំពីយើង",
+    "contact": "ទំនាក់ទំនង"
+  },
+  "downloadButton": {
+    "id": "navbar_download_button",
+    "text": "ទាញយកកម្មវិធី"
+  }
+}

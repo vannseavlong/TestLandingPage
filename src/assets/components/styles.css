@@ -1,0 +1,15 @@
+
+/* 
+ * This file has been reorganized into modular CSS files:
+ * - button/button.css - All button styles
+ * - navbar/navbar.css - Navigation bar styles  
+ * - footer/footer.css - Footer styles
+ * - section/global.css - Global styles and animations shared across sections
+ * - section/sectionA.css - Section A specific styles and responsive design
+ * - section/sectionB.css - Section B specific styles and responsive design
+ * - section/sectionC.css - Section C specific styles and responsive design
+ * 
+ * Each component now imports its own CSS file for better maintainability.
+ */
+
+/* Only global styles remain here if needed for legacy support */

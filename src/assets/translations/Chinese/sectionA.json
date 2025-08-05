@@ -1,0 +1,28 @@
+{  
+  "promotions": [
+    {
+      "id": "promotion_1",
+      "title": "奢华，如今触手可及",
+      "description": "无需高价，也能享受高品质服务。bEasy 将奢华的专业清洁体验带入您的日常生活，价格亲民，品质不减。",
+      "image": "/Luxury_zh.png",
+      "buttonText": "开始预订",
+      "DownloadText": "下载应用"
+    },
+    {
+      "id": "promotion_2",
+      "title": "充值 $50，立享 $100，30 秒极速预约服务",
+      "description": "价值翻倍，轻松拥有！只需充值 $50，即可获得 $100 的 bEasy 积分。通过我们快捷的 30 秒预约系统，高品质服务触手可及，从未如此轻松高效。",
+      "image": "/top50get100_en.png",
+      "buttonText": "开始预订",
+      "DownloadText": "下载应用"
+    },
+    {
+      "id": "promotion_3",
+      "title": "专业清洁员· 标准清洁流程 · 值得信赖",
+      "description": "让专业的人做专业的事。bEasy 的清洁员经过专业培训，经验丰富、值得信赖，遵循标准化流程，为您打造干净、安全、舒适的空间，每一次都高质量完成。",
+      "image": "/Luxury_zh.png",
+      "buttonText": "开始预订",
+      "DownloadText": "下载应用"
+    }
+  ]
+}
