@@ -362,6 +362,12 @@
   }
 }
 
+@media (max-width: 640px) {
+  .swiper-button-next, .swiper-button-prev{
+    display: none;
+  }
+}
+
 /* 600px and below */
 @media (max-width: 600px) {
   .hero-section, .hero-swiper {
@@ -375,7 +381,7 @@
     font-weight: bolder;
     font-family: 'Arial Black', Arial, sans-serif;
     top: 50%;
-    display: flex;
+    display: none;
     transform: translateY(-50%);
   }
   
