@@ -12,7 +12,7 @@
       "description": "Come home to a fresh environment with bEasy's reliable and professional home cleaning service. Our team takes care of the mess so you can enjoy more of what truly matters.",
       "buttonText": "Start Booking",
       "buttonUrl": "https://api.beasy.info",
-      "image": "/General_clean_en.png",
+      "image": "/General_clean_en.webp",
       "alt": "General Cleaning"
     },
     {
@@ -21,7 +21,7 @@
       "description": "Get a complete fresh start with our deep cleaning service. bEasy combats hidden dirt, grime, and hard-to-reach areas to restore your space to its best condition.",
       "buttonText": "Start Booking",
       "buttonUrl": "https://api.beasy.info",
-      "image": "/Deep_clean_en.png",
+      "image": "/Deep_clean_en.webp",
       "alt": "Deep Cleaning Service"
     },
     {
@@ -30,7 +30,7 @@
       "description": "Revive and renew your furnitures with bEasy's precision upholstery cleaning. Our experts gently remove stains, dust, and allergens from your furnitures, giving you a cleaner environment to live in.",
       "buttonText": "Start Booking",
       "buttonUrl": "https://api.beasy.info",
-      "image": "/Sofa_Carpet_en.png",
+      "image": "/Sofa_Carpet_en.webp",
       "alt": "Upholstery Cleaning"
     },
     {
@@ -39,7 +39,7 @@
       "description": "Lighten up your office environment with our Office Cleaning service. Come back to a clean and fresh office where all employees can continue to innovate and put in their best.",
       "buttonText": "Start Booking",
       "buttonUrl": "https://api.beasy.info",
-      "image": "/Office_clean_en.png",
+      "image": "/Office_clean_en.webp",
       "alt": "Office Cleaning"
     },
     {
@@ -48,7 +48,7 @@
       "description": "Say goodbye to mosquitoes and other insects with our powerful spray and fogging solutions. Safe and efficient to ensure you and your loved ones are protected from diseases such as dengue fever and other viruses as soon as possible!",
       "buttonText": "Start Booking",
       "buttonUrl": "https://api.beasy.info",
-      "image": "/Pest_control_en.png",
+      "image": "/Pest_control_en.webp",
       "alt": "Pest Control"
     }
   ]
