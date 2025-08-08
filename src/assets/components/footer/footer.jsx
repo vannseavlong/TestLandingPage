@@ -12,7 +12,7 @@ const Footer = ({ id }) => {
         <div className="footer__content">
           {/* Logo */}
           <div className="footer__logo">
-            <img src="/logo.png" alt="bEasy Logo" className="logo-image" />
+            <img src="/logo.webp" alt="bEasy Logo" className="logo-image" />
           </div>
 
           {/* Address */}

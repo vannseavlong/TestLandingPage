@@ -33,7 +33,7 @@ const GooglePlayButton = ({ onClick, className = '', subtitle, title, ...props }
         
       <div className="download-button__icon">
         <img 
-          src="/googlePlay.png" 
+          src="/googlePlay.webp" 
           alt="Google Play" 
           className="download-button__icon-img"
         />

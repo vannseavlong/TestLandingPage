@@ -21,9 +21,9 @@ const languageMapping = {
 
 // Language configurations
 const languages = [
-  { code: 'en', name: 'English', displayName: 'English', flag: '/EnFlag.png', lang: 'en' },
-  { code: 'km', name: 'Khmer', displayName: 'ខ្មែរ', flag: '/KHFlag.png', lang: 'km' },
-  { code: 'zh', name: 'Chinese', displayName: '中文', flag: '/CnFlag.png', lang: 'zh' }
+  { code: 'en', name: 'English', displayName: 'English', flag: '/EnFlag.webp', lang: 'en' },
+  { code: 'km', name: 'Khmer', displayName: 'ខ្មែរ', flag: '/KHFlag.webp', lang: 'km' },
+  { code: 'zh', name: 'Chinese', displayName: '中文', flag: '/CnFlag.webp', lang: 'zh' }
 ];
 
 export const LanguageProvider = ({ children }) => {

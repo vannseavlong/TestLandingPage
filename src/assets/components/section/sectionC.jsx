@@ -38,7 +38,7 @@ const SectionC = ({ id }) => {
       <div className="section-c__content">
         <div className="section-c__image animate-on-scroll animate-right-to-left">
           <img
-            src="/image.png"
+            src="/image.webp"
             alt="bEasy App Download"
             className="download-mockup-image"
           />

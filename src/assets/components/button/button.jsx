@@ -22,7 +22,7 @@ const Button = ({
       >
         <span className="simple-button__text">{text}</span>
         <span className="simple-button__arrow">
-          <img src="/arrow.png" alt="arrow" />
+          <img src="/arrow.webp" alt="arrow" />
         </span>
       </a>
     );
@@ -39,7 +39,7 @@ const Button = ({
     >
       <span className="simple-button__text">{text}</span>
       <span className="simple-button__arrow">
-        <img src="/arrow.png" alt="arrow" />
+        <img src="/arrow.webp" alt="arrow" />
       </span>
     </button>
   );
